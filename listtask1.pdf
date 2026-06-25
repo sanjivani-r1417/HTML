@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">Engineers Requirments</h1>
+    <ol>
+        <b><li>soft Engineer</li></b>
+        <ul type="disc">
+            <li>Java Full Stack</li>
+            <ol>
+                <li>SQL</li>
+                <li>Java</li>
+                <li>WEBTECH</li>
+                <li>J2EE</li>
+            </ol>
+        </ul>
+        <ul  type="disc">
+            <li>MERN STACK</li>
+            <ol>
+                <u><li>MERN1</li></u>
+                <u><li>MERN2</li></u>
+            </ol>
+        </ul>
+        <ul  type="disc">
+            <li>MEAN STACK</li>
+            <ol>
+                <u><li>MEAN1</li></u>
+                <u><li>MEAN2</li></u>
+            </ol>
+        </ul>
+        <b><li>MECHANICAL ENGINEER</li></b>
+        <ul type="disc">
+            <li>QUALITY ENGINEER</li>
+            <ol>
+                <u><li>ANALYST</li></u>
+                <u><li>QUALITY ASSURANCE</li></u>
+            </ol>
+        </ul>
+        <ul type="disc">
+            <li>DESIGN ENGINEER</li>
+            <ol>
+                <u><li>DESIGN1</li></u>
+                <u><li>DESIGN2</li></u>
+                <u><li>DESIGN3</li></u>
+            </ol>
+        </ul>
+        <b><li>CIVIL ENGINEER</li></b>
+        <ul type="disc">
+            <li>INFRASTRUCTURE ENGINEER</li>
+            <ol>
+                <u><li>INFRASTRUCTURE 1</li></u>
+                <u><li>INFRASTRUCTURE 2</li></u>
+                <u><li>INFRASTRUCTURE 3</li></u>
+            </ol>
+        </ul>
+        <ul type="disc">
+            <li>DESIGN ENGINEER</li>
+            <ol>
+                <u><li>DESIGN 1</li></u>
+                <u><li>DESIGN 2</li></u>
+                <u><li>DESIGN 3</li></u>
+            </ol>
+        </ul>
+    </ol>
+    
+</body>
+</html>

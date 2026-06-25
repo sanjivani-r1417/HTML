@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Instagram Login</title>
+
+    <style>
+        body{
+            text-align:center;
+            background-color:#f2f2f2;
+        }
+
+        .box{
+            width:300px;
+            margin:auto;
+            margin-top:100px;
+            padding:20px;
+            background:white;
+            border:1px solid gray;
+        }
+
+        h1{
+            background:linear-gradient(to right,
+            purple,pink,orange,yellow);
+            -webkit-background-clip:text;
+            color:transparent;
+        }
+
+        input{
+            width:250px;
+            height:30px;
+            margin:5px;
+        }
+
+        button{
+            width:260px;
+            height:35px;
+            background:#E1306C;
+            color:white;
+            border:none;
+        }
+    </style>
+
+    <script>
+        function login(){
+            let pass = document.getElementById("pass").value;
+
+            if(pass=="sanju1417"){
+                document.getElementById("msg").innerHTML =
+                "✅ Login Successful";
+            }
+            else{
+                document.getElementById("msg").innerHTML =
+                "❌ Login Unsuccessful";
+            }
+        }
+    </script>
+</head>
+<body>
+
+    <div class="box">
+        <h1>Instagram</h1>
+
+        <input type="text" placeholder="Username"><br>
+        <input type="password" id="pass" placeholder="Password"><br><br>
+
+        <button onclick="login()">Login</button>
+
+        <h3 id="msg"></h3>
+    </div>
+
+</body>
+</html>

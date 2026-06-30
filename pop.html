@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hover Cards</title>
+<style>
+
+    *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:#29e5e5;
+}
+
+.container{
+    width:700px;
+    height:400px;
+    background:#000000;
+    border-radius:25px;
+    position:relative;
+}
+
+
+.card{
+    width:140px;
+    height:140px;
+    background:#f0348f;
+    border-radius:12px;
+    position:absolute;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:20px;
+    font-weight:bold;
+    transition:.4s;
+    cursor:pointer;
+    box-shadow:0 10px 20px rgba(0,0,0,.15);
+}
+
+
+.c1{
+    top:40px;
+    left:40px;
+}
+.c1:hover{
+    background-color: #29e5e5;
+}
+
+.c2{
+    top:40px;
+    left:280px;
+}
+.c2:hover{
+    background-color: #29e5e5;
+}
+
+
+.c3{
+    top:40px;
+    right:40px;
+}
+.c3:hover{
+    background-color: #29e5e5;
+}
+
+
+.c4{
+    bottom:40px;
+    left:40px;
+}
+.c4:hover{
+    background-color: #29e5e5;
+}
+
+
+.c5{
+    bottom:40px;
+    left:280px;
+}
+.c5:hover{
+    background-color: #29e5e5;
+}
+
+
+.c6{
+    bottom:40px;
+    right:40px;
+}
+.c6:hover{
+    background-color: #29e5e5;
+}
+
+
+.card:hover{
+    transform:scale(1.25);
+    z-index:10;
+    box-shadow:0 20px 40px rgba(255,0,100,.35);
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="card c1">Card 1</div>
+    <div class="card c2">Card 2</div>
+    <div class="card c3">Card 3</div>
+    <div class="card c4">Card 4</div>
+    <div class="card c5">Card 5</div>
+    <div class="card c6">Card 6</div>
+
+</div>
+
+</body>
+</html>
